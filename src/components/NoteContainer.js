@@ -1,6 +1,6 @@
 import React from "react";
-import Search from "./Search";
-import Sidebar from "./Sidebar";
+import Search from "./Search"; 
+import Sidebar from "./Sidebar"; 
 import Content from "./Content";
 
 function NoteContainer() {

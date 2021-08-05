@@ -118,7 +118,7 @@ div.sidebar ul li:hover {
   height: calc(100vh - 10px);
   margin: 10px 10px 0 10px;
 }
-
+ 
 .container {
   flex: 1;
   width: 100%;
@@ -184,4 +184,29 @@ button:hover, .nav-bar:hover, input[type="submit"]:hover {
 
 button:focus, input[type="submit"]:focus {
   outline: none;
+}
+
+
+/* new CSS by Raza 7 aug */
+.cursor-pointer{
+  cursor: pointer !important;
+}
+.master-detail-element.sidebar{
+  height: 550px;
+  word-break: break-all;
+  overflow-x: none;
+  overflow-y: scroll;
+}
+.mb1{
+  margin-bottom: 3px !important;
+}
+.btn-sort{
+  padding: 3px 30px;
+  border-radius: 20px;
+  background-color: #4A9EEC;
+  border: 1px solid steelblue;
+  margin-bottom: 3px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
 }
